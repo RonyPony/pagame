@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+class DebtsScreen extends StatelessWidget { const DebtsScreen({super.key}); @override Widget build(BuildContext context) => Scaffold(appBar: AppBar(title: const Text('Deudas')), body: const Center(child: Padding(padding: EdgeInsets.all(24), child: Text('Todavía no tienes deudas registradas.\n\nCuando prestes o recibas dinero, guárdalo aquí para no depender de la memoria.', textAlign: TextAlign.center)))); }
