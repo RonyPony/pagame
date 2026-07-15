@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleDisplayName</key><string>Págame</string>
+  <key>NSContactsUsageDescription</key><string>Págame puede importar contactos solo cuando el usuario lo solicita.</string>
+  <key>NSFaceIDUsageDescription</key><string>Págame usa Face ID para proteger datos locales si lo activas.</string>
+  <key>NSPhotoLibraryUsageDescription</key><string>Págame puede adjuntar comprobantes seleccionados por el usuario.</string>
+  <key>NSCameraUsageDescription</key><string>Págame puede tomar fotos de comprobantes si el usuario lo solicita.</string>
+</dict></plist>
