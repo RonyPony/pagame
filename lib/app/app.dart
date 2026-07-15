@@ -7,12 +7,20 @@ import 'theme/app_theme.dart';
 
 class PagameApp extends ConsumerWidget {
   const PagameApp({super.key});
-  @override Widget build(BuildContext context, WidgetRef ref) => MaterialApp.router(
-    title: 'Págame',
-    theme: AppTheme.light(),
-    darkTheme: AppTheme.dark(),
-    routerConfig: appRouter,
-    localizationsDelegates: const [AppLocalizations.delegate, GlobalMaterialLocalizations.delegate, GlobalWidgetsLocalizations.delegate, GlobalCupertinoLocalizations.delegate],
-    supportedLocales: const [Locale('es', 'DO'), Locale('en', 'US')],
-  );
+  @override
+  Widget build(BuildContext context, WidgetRef ref) => MaterialApp.router(
+        debugShowCheckedModeBanner: false,
+        title: 'Págame',
+        theme: AppTheme.light(),
+        darkTheme: AppTheme.dark(),
+        routerConfig: appRouter,
+        localizationsDelegates: const [
+          AppLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        supportedLocales: const [Locale('es', 'DO'), Locale('en', 'US')],
+        themeMode: ThemeMode.system,
+      );
 }

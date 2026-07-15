@@ -2,8 +2,8 @@ import 'package:intl/intl.dart';
 
 class Money implements Comparable<Money> {
   const Money({required this.amountInMinorUnits, required this.currencyCode})
-    : assert(amountInMinorUnits >= 0),
-      assert(currencyCode.length == 3);
+      : assert(amountInMinorUnits >= 0),
+        assert(currencyCode.length == 3);
 
   final int amountInMinorUnits;
   final String currencyCode;
